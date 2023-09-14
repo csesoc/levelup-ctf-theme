@@ -27,20 +27,15 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.18.tgz#128b76ecb9be48b60cf5cfc1c63a4f00691a3239"
   integrity sha512-L4jVKS82XVhw2nvzLg/19ClLWg0y27ulRwuP7lcyL6AbUWB5aPglXY3M21mauDQMDfRLs8cQmeT03r/+X3cZYQ==
 
-"@fontsource/fira-mono@^5.0.8":
-  version "5.0.8"
-  resolved "https://registry.npmjs.org/@fontsource/fira-mono/-/fira-mono-5.0.8.tgz"
-  integrity sha512-8OJiUK2lzJjvDlkmamEfhtpL1cyFApg1Pk4kE5Pw5UTf1ETF3Yy/pprgwV5I+LQPDjuFvinsinT9xSUZ2b/zuQ==
+"@fontsource/fira-mono@^4.5.3":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.10.tgz#443be4b2b4fc6e685b88431fcfdaf8d5f5639bbf"
+  integrity sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==
 
 "@fontsource/lato@^4.5.3":
   version "4.5.5"
   resolved "https://registry.npmjs.org/@fontsource/lato/-/lato-4.5.5.tgz"
   integrity sha512-0KVmVCq3wZnriKVdbY+n/ZLf7Vy+dQcqpcm8kaVX4QGd6uBTgH6YWLnM1L051TtjKlal2FiE6xc/BLw116a0gQ==
-
-"@fontsource/raleway@^4.5.3":
-  version "4.5.5"
-  resolved "https://registry.npmjs.org/@fontsource/raleway/-/raleway-4.5.5.tgz"
-  integrity sha512-T2zIJ/6/2x+T9+tLtw/qSiJ68ahcceDMUOU3zrzEyNGYXUvlQyU4Cv9wyTmS+TU9IFHHChjMToV6izRL9mqDqg==
 
 "@fortawesome/fontawesome-free@6.0.0":
   version "6.0.0"
