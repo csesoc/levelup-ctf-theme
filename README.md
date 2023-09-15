@@ -1,25 +1,34 @@
-# core-beta
+# CTFd theme for "Level Up w/ CSESoc Projects Fair"
 
-Rewritten version of the CTFd core theme to use Bootstrap 5, Alpine.js, and vite to improve upon the existing CTFd theme structure. 
+This is a very simple theme for the CTF component of a flagship event by CSESoc
+Dev, "Level Up w/ CSESoc Projects Fair". It follows the colour scheme in the
+FB promotional banner for the event, and makes some modifications to the font.
 
-## Subtree Installation
+The theme has a few small deviations from the original `core-beta` theme, and
+includes some images that are meant to serve as the logo and favicon respectively.
 
-### Add repo to themes folder
+## Installation & usage
 
+To use the theme, you will need to install [CTFd](https://github.com/CTFd/CTFd).
+
+1. Clone the GitHub repository.
+2. Go to `<location of CTFd>/CTFd/themes`, and clone `levelup` into that folder.
+3. Run `flask run` to spin the server up in debug mode, and follow the instructions
+to set up your admin account and choose a theme.
+
+NOTE: Running the server in debug mode is important for development - because
+of the way the build process works for CTFd themes (using Vite), if you run CTFd
+using Docker you will need to run `docker-compose up` every time `levelup` builds
+(which is fairly often with hot reloading).
+
+To set up the `levelup` repo itself for development, run the following commands:
+
+```sh
+yarn install
+# enable hot reloading - everything gets rebuilt whenever you save a file
+yarn dev
 ```
-git subtree add --prefix CTFd/themes/core-beta git@github.com:CTFd/core-beta.git main --squash
-```
 
-### Pull latest changes to subtree
-```
-git subtree pull --prefix CTFd/themes/core-beta git@github.com:CTFd/core-beta.git main --squash
-```
-
-### Subtree Gotcha
-
-Make sure to use Merge Commits when dealing with the subtree here. For some reason Github's squash and commit uses the wrong line ending which causes issues with the subtree script: https://stackoverflow.com/a/47190256. 
-
-## Todo
-
-- Document how we are using Vite
-- Create a cookie cutter template package to use with Vite
+Optionally, you can also upload `assets/img/favicon.png` and `assets/img/logo.png`
+as the favicon and the home page logo respectively - these can't be set within
+the theme itself, and has to be done manually.
